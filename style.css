@@ -4,11 +4,5 @@ html, body {
 }
 canvas {
   display: block;
-}
-p {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 100px;
-  color: white;
-  background: grey;
+  background-color: black;
 }
