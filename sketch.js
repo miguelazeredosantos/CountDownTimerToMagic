@@ -1,6 +1,6 @@
 let canvas, ctx;
 
-let scl = 10;
+let scl = 9;
 let speedLimit = 0.9 * scl;
 let friction = 0.75;
 let roboto;
@@ -61,7 +61,7 @@ function draw() {
 	if(changed) { // Rotate the particles
 		for(let i = 0; i < particles.length * 0.333; i++) {
 			let p = particles.pop();
-			p.applyForce(-18 * scl, -10 * scl);
+			p.applyForce(-20 * scl, -10 * scl);
 			particles.unshift(p);
 		}
 	}
