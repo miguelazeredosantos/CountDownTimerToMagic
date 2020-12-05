@@ -55,7 +55,8 @@ function draw() {
 			.update();
 	});
 	
-	ctx.fillStyle = 'hsl(205, 100%, 50%)';
+	//ctx.fillStyle = 'hsl(205, 100%, 50%)';
+	ctx.fillStyle = 'orange';
 	ctx.fill();
 	
 	if(changed) { // Rotate the particles
