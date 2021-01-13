@@ -16,7 +16,7 @@ let textPoints = [];
 let order = [];
 
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 29, 2020 15:00:00").getTime();
+var countDownDate = new Date("Feb 05, 2021 15:10:00").getTime();
 
 function preload() {
 	roboto = loadFont('RobotoMono-Bold.ttf');
